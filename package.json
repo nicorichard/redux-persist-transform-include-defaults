@@ -1,6 +1,6 @@
 {
   "name": "redux-persist-transform-include-defaults",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "include the rehydrated reducer's defaults in a persist: transform for redux-persist",
   "main": "index.js",
   "scripts": {
