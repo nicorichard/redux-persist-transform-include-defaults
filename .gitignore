@@ -1,5 +1,15 @@
+# Packages
 node_modules
+
+# System
 /.idea
 /.vscode
-yarn.lock
 .DS_Store
+
+# Build
+/lib/
+
+# Logs
+logs
+*.log
+npm-debug.log*
