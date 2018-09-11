@@ -11,7 +11,7 @@ When rehydrating, spread the reducer's defaults before restoring the object.
 ### With Helper
 
 ```js
-import transformIncludeDefaults from 'redux-persist-transform-include-defaults'
+import { persistReducerIncludeDefaults } from 'redux-persist-transform-include-defaults';
 
 const reducer = persistReducerIncludeDefaults(
   {
@@ -25,6 +25,7 @@ const reducer = persistReducerIncludeDefaults(
 
 ```js
 import { persistReducer } from 'redux-persist'
+import transformIncludeDefaults from 'redux-persist-transform-include-defaults'
 
 const reducer = persistReducer(
   {
