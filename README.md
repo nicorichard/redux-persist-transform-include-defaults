@@ -1,8 +1,10 @@
 # redux-persist-transform-include-defaults
 
-When rehydrating, spread the reducer's defaults before restoring the object. Includes new properties without a migration.
+When rehydrating, spread the reducer's defaults before restoring the object.
 
-## Usage
+ - Includes new properties without a migration.
+
+## Quickstart
 
 ### With Helper
 
