@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "include the rehydrated reducer's defaults in a persist: transform for redux-persist",
   "main": "index.js",
-  "scripts": {
+  "scripts": {},
+  "devDependencies": {
+    "@babel/preset-env": "^7.0.0"
   },
   "dependencies": {
     "lodash": "^4.17.10",
