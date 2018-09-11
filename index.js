@@ -3,19 +3,19 @@ import { persistReducer, createTransform } from 'redux-persist';
 
 export const ACTION_TYPE = 'redux-persist-transform-include-defaults/TRANSFORM';
 
-export const persistReducerDefaultsFirst = (config, reducer) =>
+export const persistReducerIncludeDefaults = (config, reducer) =>
   persistReducer(
     {
       ...config,
       transforms: [
         ...(config.transforms || []),
-        rehydrateDefaultsFirst(reducer),
+        transformIncludeDefaults(reducer),
       ],
     },
     reducer,
   );
 
-const rehydrateDefaultsFirst = (reducers) =>
+const transformIncludeDefaults = (reducers) =>
   createTransform(
     (inboundState) => inboundState,
     (outboundState, key) => {
@@ -33,4 +33,4 @@ const rehydrateDefaultsFirst = (reducers) =>
     },
   );
 
-export default rehydrateDefaultsFirst;
+export default transformIncludeDefaults;
