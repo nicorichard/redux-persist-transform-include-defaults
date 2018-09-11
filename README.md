@@ -8,6 +8,10 @@ When rehydrating, spread the reducer's defaults before restoring the object.
 
 ## Quickstart
 
+```
+yarn add redux-persist-transform-include-defaults
+```
+
 ### With Helper
 
 ```js
