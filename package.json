@@ -4,7 +4,7 @@
   "description": "include the rehydrated reducer's defaults in a persist: transform for redux-persist",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir -p lib && babel index.js -o lib/index.js",
+    "build": "babel src -d lib",
     "prepublish": "yarn build"
   },
   "devDependencies": {
