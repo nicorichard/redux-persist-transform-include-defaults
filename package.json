@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CityTransit/redux-persist-transform-immutable.git"
+    "url": "https://github.com/CityTransit/redux-persist-transform-include-defaults.git"
   },
   "keywords": [
     "redux",
@@ -19,7 +19,7 @@
     "redux-persist-transform",
     "include-defaults"
   ],
-  "homepage": "https://github.com/CityTransit/redux-persist-transform-immutable",
+  "homepage": "https://github.com/CityTransit/redux-persist-transform-include-defaults",
   "author": "Nico Richard <nicorichard@gmail.com>",
   "license": "MIT"
 }
