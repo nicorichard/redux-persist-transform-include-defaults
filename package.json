@@ -20,6 +20,9 @@
     "type": "git",
     "url": "https://github.com/CityTransit/redux-persist-transform-include-defaults.git"
   },
+  "files": [
+    "lib/"
+  ],
   "keywords": [
     "redux",
     "redux-persist",
