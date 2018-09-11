@@ -1,0 +1,25 @@
+{
+  "name": "redux-persist-transform-include-defaults",
+  "version": "0.0.1",
+  "description": "immutable.js transform for redux-persist",
+  "main": "index.js",
+  "scripts": {
+  },
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "redux-persist": "^5.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CityTransit/redux-persist-transform-immutable.git"
+  },
+  "keywords": [
+    "redux",
+    "redux-persist",
+    "redux-persist-transform",
+    "include-defaults"
+  ],
+  "homepage": "https://github.com/CityTransit/redux-persist-transform-immutable",
+  "author": "Nico Richard <nicorichard@gmail.com>",
+  "license": "MIT"
+}
